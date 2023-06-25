@@ -61,7 +61,15 @@ body {
         font-weight: 700;
         color: white;
 }
-
+.profile h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: yellow;
+    padding-top: 10px;
+}
+.profile p {
+    font-style: italic;
+}
 .profile img {
         border-radius: 50%;
         max-width: 100%;
