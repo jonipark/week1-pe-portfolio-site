@@ -85,6 +85,20 @@ body {
     height: 200px;
 }
 
+.section {
+    padding-top: 10px;
+    background-color: lightyellow;
+    text-align: center;
+}
+.section img{
+    border-radius: 50%;
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;        
+    padding: 20px;
+}
 .banner {
     padding: 20px 0px 50px 0px;
     height: 150px;
