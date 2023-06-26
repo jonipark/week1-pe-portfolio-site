@@ -7,42 +7,24 @@ body {
   margin: 0px;
 }
 
+/* Navbar */
+
 .nav-bar {
   width: 100%;
-  display: inline-block;
-  background-color: #1c539f;
-  font-weight: 700 !important;
-  padding-top: 10px;
-}
-
-.nav-content .logo-touch-target {
-  display: inline-flex;
-  height: 60%;
-  width: 350px;
-}
-
-.nav-content .nav-logo {
-  height: 60px;
-  margin: auto;
-}
-
-.nav-logo {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  background-color: #d9e9ff;
+  padding-top: 10px;
+
 }
 
-.nav-logo img {
-  width: 200px;
+.nav-item {
+  width: 20px;
+  height: 20px;
+  padding: 12px;
 }
 
-.nav-content nav {
-  display: block;
-  width: 100%;
-  text-align: right;
-  padding-top: 0px;
-  padding-right: 0px;
-}
+/* Home */
 
 .profile {
   text-align: center;
@@ -64,10 +46,14 @@ body {
   height: 200px;
 }
 
+/* Experience */
+
 .timeline {
   padding: 20px 0px 50px 0px;
   text-align: center;
 }
+
+/* Hobby */
 
 .hobby {
   padding: 20px 0px 50px 0px;
@@ -81,6 +67,8 @@ body {
   margin-right: auto;
   padding: 20px;
 }
+
+/* Map */
 
 .section {
     padding: 20px 0px 50px 0px;
