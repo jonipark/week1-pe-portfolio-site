@@ -33,21 +33,15 @@
       </div>
     </header>
 
-    <div class="profile">
-      <div id="profile-picture" class="profile-picture">
-        <img src="./static/img/profile-picture.jpg" />
+    <!-- hobby -->
+    <div class="hobby">
+      <h2>Hobbies</h2>
+      {% for h in hobbies %}
+      <div>
+        <img src="{{h.img}}" />
+        <p>{{h.name}}</p>
       </div>
-      <h1>{{ title }}</h1>
-    </div>
-
-    <!-- About Me -->
-    <div class="profile">
-      <h2>About Me</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc libero
-        justo, imperdiet et quam at, sodales tempor sapien. Nullam vitae odio
-        sollicitudin, placerat leo quis, feugiat purus.
-      </p>
+      {% endfor %}
     </div>
   </body>
 </html>
