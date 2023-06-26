@@ -21,10 +21,10 @@ For each of these tasks, you should create an [Issue](https://docs.github.com/en
 - [ ] Add your previous work experiences
 - [ ] Add your hobbies (including images)
 - [ ] Add your current/previous education
-- [ ] Add a map of all the cool locations/countries you visited
+- [x] Add a map of all the cool locations/countries you visited
 
 ### Flask Tasks
-- [ ] Get your Flask app running locally on your machine using the instructions below.
+- [x] Get your Flask app running locally on your machine using the instructions below.
 - [ ] Add a template for adding multiple work experiences/education/hobbies using [Jinja](https://jinja.palletsprojects.com/en/3.0.x/api/#basics)
 - [ ] Create a new page to display hobbies.
 - [ ] Add a menu bar that dynamically displays other pages in the app
