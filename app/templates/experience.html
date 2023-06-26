@@ -33,21 +33,32 @@
       </div>
     </header>
 
-    <div class="profile">
-      <div id="profile-picture" class="profile-picture">
-        <img src="./static/img/profile-picture.jpg" />
-      </div>
-      <h1>{{ title }}</h1>
+    <!-- Work Experience -->
+    <div class="timeline">
+      <h2>Work Experience</h2>
+      {% for e in work_experiences %}
+      <h4 class="h4 timeline-item-title-work">
+        <a href="{{e.url}}" target="_blank">{{e.company}}</a> | {{e.date}}
+      </h4>
+      <p class="timeline-text">
+        {{e.title}}<br />
+        · {{e.desc}}
+      </p>
+      {% endfor %}
     </div>
 
-    <!-- About Me -->
-    <div class="profile">
-      <h2>About Me</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc libero
-        justo, imperdiet et quam at, sodales tempor sapien. Nullam vitae odio
-        sollicitudin, placerat leo quis, feugiat purus.
+    <!-- Education -->
+    <div class="timeline">
+      <h2>Education</h2>
+      {% for e in education %}
+      <h4 class="h4 timeline-item-title-edu">
+        <a href="{{e.url}}" target="_blank">{{e.school}}</a> | {{e.date}}
+      </h4>
+      <p class="timeline-text">
+        {{e.major}}, GPA: {{e.gpa}}<br />
+        · {{e.desc}}
       </p>
+      {% endfor %}
     </div>
   </body>
 </html>
